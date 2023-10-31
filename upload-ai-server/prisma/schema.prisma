@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model video {
+  id            String   @id @default(uuid())
+  name          String
+  path          String
+  transcription String? //Opcional
+  createAt      DateTime @default(now()) // Cadastra o vídeo com a data atual
+}
+
+model prompt {
+  id       String @id @default(uuid())
+  title    String
+  template String
+}
