@@ -6,6 +6,7 @@ Repository will contain the project code - Front-end and Back-end developed duri
 
 ---
 
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
