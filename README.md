@@ -67,7 +67,6 @@ For the front-end development, React.js, Tailwind.css, Shadcn for styled compone
 
 On the back-end side, Node.js was employed, along with Fastify to handle API requests and routes, and Prisma as the database ORM, among other technologies.
 
-
 ---
 
 ## Contributing
